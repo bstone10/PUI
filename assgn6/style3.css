@@ -1,0 +1,303 @@
+
+
+
+
+
+body {
+    background: white;
+    background-size: cover;
+}
+
+header {
+    color: white;
+    position: absolute;
+    width: 1440px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    background: #252336;
+    z-index: -1;
+
+}
+
+/* Styles for back button */
+
+.backlabel a {
+    font-family: Assistant;
+    font-weight: 800;
+    font-size: 20px;
+    color: #685FB5;
+    position: absolute;
+    width: auto;
+    height: 41px;
+    left: 135px;
+    top: 231px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Styles for the product details */
+
+.productTitle {
+    position: absolute;
+    width: 602px;
+    height: 137px;
+    left: 135px;
+    top: 260px;
+    font-family: Assistant;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.price {
+    font-family: Assistant;
+    font-weight: 800;
+    font-size: 50px;
+    left: 50%;
+    top: 260px;
+    position: absolute;
+}
+
+.rate {
+    left: 50%;
+    position: absolute;
+    top: 335px;
+    font-size: 20px;
+    font-family: Assistant;
+    align-items: center;
+    display: flex;
+}
+
+/* Styles for the size customization */
+
+.size {
+    left: 50%;
+    position: absolute;
+    top: 375px;
+    font-size: 20px;
+    font-family: Assistant;
+    margin: 10px;
+}
+
+.size button {
+    font-family: Assistant;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+    width: 100px;
+    align-items: center;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 16.5px;
+    display:inline-block;
+    margin: 15px;
+    margin-left: 0px;
+    transition-duration: 0.3s;
+}
+
+.size button:hover {
+    background-color: #685FB5;
+    color: white;
+}
+
+/* Styles for the custom color */
+
+.color {
+    left: 50%;
+    position: absolute;
+    top: 475px;
+    font-size: 20px;
+    font-family: Assistant;
+    margin: 10px;
+}
+
+.color button {
+    width: 42px;
+    height: 42px;
+    margin: 15px;
+    margin-left: 0px;
+    border-radius: 100%;
+    transition-duration: 0.3s;
+}
+
+#colorPink {
+    background: #DE5D8C;
+}
+
+#colorPurple {
+    background: #45366F;
+}
+
+#colorGreen {
+    background: #46C762;
+}
+
+#colorOrange {
+    background: #FD9535;
+}
+
+.color button:hover {
+    border: 3px solid white;
+}
+
+.prodpic img {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    bottom: 0%;
+    left: -5%;
+    z-index: -1;
+}
+
+/* Styles for the quantity button */
+
+.amount {
+    left: 50%;
+    position: absolute;
+    top: 575px;
+    font-size: 20px;
+    font-family: Assistant;
+    margin: 10px;
+}
+
+.amount button {
+    width: 36px;
+    height: 36px;
+    margin: 15px;
+    border-radius: 100%;
+    border: 1px solid black;
+    transition-duration: 0.3s;
+    font-size: 24px;
+    align-items: center;
+}
+
+.amount .add {
+    margin-left: 0px;
+}
+
+/* Styles for the add to cart button */
+
+.disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
+.addCart button {
+    width: 187px;
+    height: 49px;
+    margin: 15px;
+    background: #685FB5;
+    border-radius: 13px;
+    font-weight: 400;
+    font-size: 20px;
+    align-items: center;
+    border: 0px;
+    box-sizing: border-box;
+    display:inline-block;
+    color: white;
+    left: 50%;
+    top: 675px;
+    position: absolute;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#logo {
+    font-family: Ribeye;
+    font-size: 65px;
+    line-height: 89px;
+    left: 40px;
+    top: 34px;
+    position: absolute;
+
+}
+
+#logo2 {
+    font-family: Assistant;
+    font-size: 48px;
+    line-height: 66px;
+    left: 40px;
+    top: 125px;
+    position: absolute;
+    letter-spacing: 5px;
+}
+
+#navbar {
+    position: absolute;
+    left: 742px;
+    top: 135px;
+}
+
+#deal {
+    position: absolute;
+    left: 135px;
+    top: 284px;
+}
+
+#deal p {
+    color: white;
+    font-family: Assistant;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 10px;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    font-family: Assistant;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 14px 36px;
+    text-decoration: none;
+}
+
+#navbar .active {
+    text-decoration: underline;
+}
+
+.size .active {
+    background-color: #685FB5;
+    color: white;
+}
+
+.amount p {
+    display: inline;
+}
+
+a:hover:not(.active) {
+    color: lightblue;
+    text-decoration: none;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
