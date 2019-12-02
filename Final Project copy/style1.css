@@ -1,0 +1,237 @@
+
+
+
+
+
+
+body {
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Avenir;
+    color: #FFFFFF;
+}
+
+#modalLabel {
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#error {
+    color: red;
+}
+
+.modal-backdrop {
+    opacity: .9 !important;
+}
+
+.modal-body {
+    color: black;
+}
+
+.navbar{
+    padding-top: 2%;
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent
+
+}
+
+
+
+
+.navbar-brand h1{
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0.605em;
+    color: #FFFFFF;
+}
+
+.navbar-brand h6{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+
+.navbar-header{
+    padding-left: 30px;
+
+}
+
+.navbar-nav a{
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF !important;
+
+}
+
+.navbar-nav > li{
+    padding-left:70px;
+    padding-right:70px;
+    padding-top: 60px;
+}
+
+#drink_carousel {
+    position: relative;
+    padding-top: 15%;
+    width: 100%;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+}
+
+
+img {
+  float: left;
+  width: auto;
+  padding-left: 15%;
+  padding-bottom:8%;
+}
+
+
+article {
+    float: right;
+    width: 55%;
+    padding-right: 15%;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 96px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 55px;
+}
+
+h5 {
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+#cubalibre_button{
+    background: #69150E;
+    border-radius: 28.5px;
+    color: white;
+    border: none;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    width: 168px;
+    height: 57px;
+    float: center;
+    margin-top: 25px;
+}
+
+#cubalibre_button a{
+    color: white;
+}
+
+#cubalibre_button a:hover{
+    text-decoration: none;
+}
+
+#amaretto_button{
+    background: #EF7B02;
+    border-radius: 28.5px;
+    color: white;
+    border: none;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    width: 168px;
+    height: 57px;
+    float: center;
+    margin-top: 25px;
+}
+
+#amaretto_button a{
+    color: white;
+}
+
+#amaretto_button a:hover{
+    text-decoration: none;
+}
+
+#mojito_button{
+    background: #607F06;
+    border-radius: 28.5px;
+    color: white;
+    border: none;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+    width: 168px;
+    height: 57px;
+    float: center;
+    margin-top: 25px;
+}
+
+#mojito_button a{
+    color: white;
+}
+
+#mojito_button a:hover{
+    text-decoration: none;
+}
+
+
+
+ul.nav a:hover {
+    color: white;
+    text-decoration: none;
+    background: none;
+    border-bottom: 4px solid white;
+    padding: 10px 0; 
+
+
+}
+
+ul.nav a {
+    transition: 0.3s ease;
+    color: #ffffff;
+    text-decoration: none;  
+    border-bottom: 4px solid transparent;
+    padding: 10px 0;
+    margin: 0 5px;
+    text-align: right;
+}
+
+#clock {
+    width: 27px;
+    height: auto;
+    padding-left: 0px;
+
+}

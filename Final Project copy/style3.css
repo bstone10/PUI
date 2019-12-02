@@ -1,0 +1,155 @@
+
+
+
+
+
+
+body {
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Avenir;
+    color: #FFFFFF;
+}
+
+.navbar{
+    padding-top: 2%;
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent
+}
+
+.navbar-brand h1{
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0.605em;
+    color: #FFFFFF;
+}
+
+.navbar-brand h6{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+
+.navbar-header{
+    padding-left: 30px;
+}
+
+.navbar-nav a{
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF !important;
+}
+
+.navbar-nav > li{
+    padding-left:70px;
+    padding-right:70px;
+    padding-top: 60px;
+}
+
+#flavorText {
+    position: relative;
+    padding-top: 15%;
+}
+
+#flavorContent {
+    font-size: 30px;
+    float: left;
+}
+
+ul.nav a:hover {
+    color: white;
+    text-decoration: none;
+    background: none;
+    border-bottom: 4px solid white;
+    padding: 10px 0; 
+
+}
+
+ul.nav a {
+    transition: 0.3s ease;
+    color: white;
+    text-decoration: none;  
+    border-bottom: 4px solid transparent;
+    padding: 10px 0;
+    margin: 0 5px;
+    text-align: right;
+}
+
+
+
+#active {
+    border-bottom: 4px solid white;
+    padding: 10px 0;
+    margin: 0 5px;
+}
+
+.row {
+    text-align: center;
+}
+
+
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    padding-bottom: 20px;
+}
+
+#createdRecipes {
+    position: relative;
+    padding-top: 5%;
+
+}
+
+.drinkVar {
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#variation1 {
+    font-size: 20px;
+    padding: 20px;
+}
+
+#variation2 {
+    font-size: 20px;
+    padding: 20px;
+}
+
+#variation3 {
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
