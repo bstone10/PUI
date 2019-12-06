@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+<head>
+    <title>Mix & Match</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../javascript/main.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/style2.css">
+
+</head>
+<body>
+    <header>
+    </header>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="index.html"><h1>MIX & MATCH</h1></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="recipes.html">RECIPES</a></li>
+            <li><a href="create.html" id="active">CREATE</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="container-fluid" id="flavorText2">
+        <div class="row">
+            <div class="col-sm-12" id="flavorContent">
+                Let's create a brand new cocktail.<br><br>⌄<br><br><br><br>
+            </div>
+        </div>
+    </div>
+
+<!-- DROPDOWN MENU FOR EACH FIELD -->
+    <div class="container-fluid" id="dropdown">
+        <div class="row">
+            <div class="col-sm-4">
+                <section class="main">
+                    <div class="wrapper-demo">
+                        <div id="dd" class="wrapper-dropdown-3" tabindex="0">
+                            <span>Flavor</span>
+                            <ul class="dropdown">
+                                <li><a href="#">Sour</a></li>
+                                <li><a href="#">Fruity</a></li>
+                                <li><a href="#">Sweet</a></li>
+                                <li><a href="#">Neutral</a></li>
+                            </ul>
+                        </div>
+                    ​</div>
+                </section>
+            </div>
+            <div class="col-sm-4">
+                <section class="main">
+                    <div class="wrapper-demo">
+                        <div id="de" class="wrapper-dropdown-3" tabindex="2">
+                            <span>Style</span>
+                            <ul class="dropdown">
+                                <li><a href="#">Fizzy</a></li>
+                                <li><a href="#">Flat</a></li>
+                                <li><a href="#">Hot</a></li>
+                                <li><a href="#">Frozen</a></li>
+                            </ul>
+                        </div>
+                    ​</div>
+                </section>
+            </div>
+            <div class="col-sm-4">
+                <section class="main">
+                    <div class="wrapper-demo">
+                        <div id="df" class="wrapper-dropdown-3" tabindex="3">
+                            <span>Feel</span>
+                            <ul class="dropdown">
+                                <li><a href="#">Refreshing</a></li>
+                                <li><a href="#">Classic</a></li>
+                                <li><a href="#">Modern</a></li>
+                            </ul>
+                        </div>
+                    ​</div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+                <button id='createButton' class="disabled">
+                    <a href="create2.html">CREATE</a>
+                </button>
+            </div>
+            <div class="col-sm-3">
+                <button id='randomButton' onclick="randomDrink()">
+                    <a href="create2.html">RANDOM</a>
+                </button>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+

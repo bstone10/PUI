@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+<head>
+    <title>Mix & Match</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style1.css">
+
+   <!--  THIS SCRIPT LOADS AN AGE VERIFICATION -->
+    <!-- <script type="text/javascript">
+        $(window).on('load',function(){
+            $('#myModal').modal('show');
+        });
+    </script> -->
+    <script type="text/javascript" src="../javascript/main.js"></script>
+</head>
+<body>
+
+
+<!-- MAIN PAGE NAVBAR -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#"><h1>MIX & MATCH</h1></a>
+        </div>
+        
+<!--         CREATES A HAMBURGER MENU AFTER CERTAIN SCREEN WIDTH -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="recipes.html" class="navTitle">RECIPES</a></li>
+            <li><a href="create.html">CREATE</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+<!-- AGE VERIFICATION MODAL -->
+    <div class="modal fade" data-keyboard="false" data-backdrop="static" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Verify your age:</h5>
+                </div>
+                <div class="modal-body">
+                    <input id="age" type="date"/>
+                    <div id="error"></div>
+                </div>
+                <div class="modal-footer">
+                    
+                    <button type="button" class="btn btn-primary" onclick="verifyAge()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- MAIN PAGE CAROUSEL -->
+
+    <div class='container-fluid' id='drink_carousel'>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+                <section>
+                    <img class="img-responsive" src="../assets/cubalibre.png">    
+                    <article>
+                        <h1>Cuba Libre</h1>
+                        <h3>A classic Cuban cocktail.</h3>
+                        <h5>The national drink of Cuba celebrates its independence. Anyone who has traveled south knows the Cuba Libre cocktail it as rum and Coke. But it’s not as simple as that.</h5>
+                        <button id="cubalibre_button">
+                            <a href="cubalibre.html">TRY IT OUT</a>
+                        </button>
+                    </article>
+                </section>
+            </div>
+
+            <div class="item">
+                <section>
+                    <img class="img-responsive" src="../assets/amaretto1.png">    
+                    <article>
+                        <h1>Amaretto Sidecar</h1>
+                        <h3>A unique twist on a classic.</h3>
+                        <h5>Amaretto has a long history in Italy, and its nutty flavor can add a pleasing complexity to any number of sips. We'd love to give that bottle at the back of your bar some love.</h5>
+                        <button id='amaretto_button'>
+                            <a href="amaretto.html">TRY IT OUT</a>
+                        </button>
+                    </article>
+                </section>
+            </div>
+
+            <div class="item">
+                <section>
+                    <img class="img-responsive" src="../assets/mojito 2.png">    
+                    <article>
+                        <h1>Mojito</h1>
+                        <h3>A drink for hot summer days.</h3>
+                        <h5>A cocktail that consists of five ingredients: white rum, sugar, lime juice, soda water, and mint. Its combination of sweetness, citrus, and herbaceous mint flavors is intended to complement the rum, and has made the mojito a popular summer drink.</h5>
+                        <button id='mojito_button'>
+                            <a href="mojito.html">TRY IT OUT</a>
+                        </button>
+                    </article>
+                </section>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
